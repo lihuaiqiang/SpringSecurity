@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="security-springboot" />
+        <module name="security-springmvc" />
+        <module name="security-spring-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="security-spring-security" target="1.8" />
       <module name="security-springboot" target="1.8" />
+      <module name="security-springmvc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
